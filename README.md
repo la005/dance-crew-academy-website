@@ -1,2 +1,2 @@
 # Dance Crew Academy
-<p>This website was built with HTML, CSS and Javascript.</p>
+<p>A website where dance students can register for classes, register for casting calls and view the weekly class schedule.</p>
