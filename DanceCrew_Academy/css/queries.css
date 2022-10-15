@@ -1,0 +1,253 @@
+/********** MEDIA QUERIES **********/
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/***************************************/
+/* BELOW 1200PX (Landscape tablets) */
+/***************************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .hero-section {
+    padding: 6.4rem 9.6rem;
+  }
+
+  .hero-text {
+    padding: 0 3.2rem;
+  }
+
+  br {
+    display: none;
+  }
+
+  .schedule-columns-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .schedule-section {
+    padding: 4.8rem;
+  }
+}
+
+/***************************************/
+/* BELOW 944PX (Tablets) */
+/**************************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 7.2rem;
+  }
+
+  .hero-section {
+    padding: 12.8rem 3.2rem;
+  }
+
+  .feature-section {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4.4rem;
+  }
+
+  .instructor-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .casting-text-container {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .casting-img {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .gallery-text .heading-secondary {
+    font-size: 5.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .item-1 {
+    grid-row: 1;
+    grid-column: 1 / 8;
+  }
+
+  .item-2 {
+    grid-row: 2;
+    grid-column: 1 / 8;
+  }
+
+  .item-3 {
+    grid-row: 3;
+    grid-column: 1 / 8;
+  }
+
+  .item-4 {
+    grid-row: 4;
+    grid-column: 1 / 8;
+  }
+
+  .item-5 {
+    grid-row: 5;
+    grid-column: 1 / 8;
+  }
+
+  .item-6 {
+    grid-row: 6;
+    grid-column: 1 / 8;
+  }
+
+  .item-7 {
+    grid-row: 7;
+    grid-column: 1 / 8;
+  }
+
+  .item-8 {
+    grid-row: 8;
+    grid-column: 1 / 8;
+  }
+}
+
+/***************************************/
+/* BELOW 768PX (Smaller Tablets) */
+/***************************************/
+@media (max-width: 48em) {
+  .logo-container {
+    display: inline-block;
+  }
+
+  .logo-link {
+    visibility: hidden;
+  }
+
+  .main-nav {
+    display: inline-block;
+    padding: 2rem 3.2rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .hero-section {
+    padding: 3.2rem;
+  }
+
+  .feature-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .instructor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .preview-text-container {
+    padding: 4.8rem;
+  }
+
+  .registration-form {
+    display: flex;
+    width: 48rem;
+  }
+
+  .schedule-columns-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/***************************************/
+/* BELOW 544px (Phones) */
+/***************************************/
+
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 2.4rem;
+  }
+
+  .hero-description {
+    display: none;
+  }
+
+  .hero-text {
+    padding: 0;
+  }
+
+  .hero-text .btn-sm {
+    display: none;
+  }
+
+  .feature-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .casting-section {
+    padding: 0 0 4.8rem 0;
+  }
+
+  .casting-text-container .heading-tertiary {
+    font-size: 3.6rem;
+  }
+
+  .instructor-section {
+    padding: 6.4rem 0 4.8rem 0;
+  }
+
+  .instructor-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.4rem;
+  }
+
+  .instructor-img {
+    border-radius: 0;
+    height: 70rem;
+    width: 100%;
+  }
+
+  .instructor-btn:link,
+  .instructor-btn:visited {
+    border-radius: 0;
+  }
+
+  .gallery-section {
+    padding: 0 0 3.2rem 0;
+  }
+
+  .gallery-container {
+    gap: 2.4rem;
+  }
+
+  .schedule-columns-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer {
+    padding: 3.2rem;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .copyright-container {
+    padding: 0 3.2rem 3.2rem 3.2rem;
+  }
+}
