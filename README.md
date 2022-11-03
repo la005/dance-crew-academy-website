@@ -1,2 +1,2 @@
 # Dance Crew Academy
-<p>A website where dance students can register for classes, register for casting calls and view the weekly class schedule.</p>
+<p>A website where dance students can view their class schedule and register for classes and casting calls</p>
