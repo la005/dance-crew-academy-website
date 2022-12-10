@@ -14,6 +14,7 @@
 .footer-logo-container {
   display: flex;
   column-gap: 1.4rem;
+  flex-flow: row wrap;
   align-items: center;
 }
 
@@ -32,17 +33,18 @@
 
 .main-nav-list {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  gap: 3.2rem;
+  gap: 32px;
   list-style: none;
 }
 
 .main-nav {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 auto; */
   padding: 2rem 9.6rem;
 }
 
@@ -147,34 +149,11 @@
   background: #b91c1c;
 }
 
-.register-btn:link,
-.register-btn:visited {
-  background: #334155;
-  border-radius: 4rem;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Rubik", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 1.8rem;
-  /* letter-spacing: .1px; */
-  padding: 1.2rem 2.4rem;
-  text-decoration: none;
-  transition: all ease-in-out 0.3s;
-  width: 100%;
-}
-
-.register-btn:hover,
-.register-btn:active {
-  background: #1e293b;
-  color: #fff;
-}
-
 /*********** FEATURES SECTION ***********/
 
 .feature-section {
   padding: 9.6rem;
-  column-gap: 6.4rem;
+  column-gap: 64px;
 }
 
 .fea-icon {
@@ -266,7 +245,7 @@
 
 .instructor-grid {
   place-content: center;
-  gap: 1.8rem;
+  gap: 18px;
 }
 
 .instructor {
@@ -440,7 +419,7 @@
 }
 
 .gallery-container {
-  gap: 1.8rem;
+  gap: 18px;
 }
 
 .gallery-item {
@@ -522,15 +501,15 @@ label,
 
 .button-close-modal,
 .button-close-tour-modal {
-  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  background: none;
+  border: none;
   color: #555;
+  cursor: pointer;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
   position: absolute;
   top: 0.5rem;
   right: 2rem;
-  font-size: 4rem;
-  cursor: pointer;
-  border: none;
-  background: none;
 }
 
 .overlay {
@@ -693,12 +672,12 @@ textarea::placeholder,
 .schedule-section .heading-tertiary {
   color: #33272a;
   font-size: 3.6rem;
-  margin-bottom: 4.4rem;
+  margin-bottom: 2.4rem;
 }
 
 .schedule-section {
   background: #fff;
-  padding: 9.6rem;
+  padding: 4.8rem 9.6rem 9.6rem 9.6rem;
 }
 
 .schedule-image {
@@ -714,10 +693,10 @@ textarea::placeholder,
 }
 
 .schedule-columns-container {
-  gap: 3.2rem;
+  gap: 32px;
 }
 
-.schedule-list {
+.class-wrapper {
   border-bottom-right-radius: 1.2rem;
   border-bottom-left-radius: 1.2rem;
   -webkit-border-bottom-right-radius: 1.2rem;
@@ -725,17 +704,39 @@ textarea::placeholder,
   background: #fff;
   -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
   box-shadow: 12px 12px 24px #b2b8c9a1, -12px -12px 24px #e7e7e77a;
+  padding: 2.4rem;
+}
+
+.class-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule-list {
   display: flex;
   flex-direction: column;
   list-style: none;
-  gap: 1.2rem;
-  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  line-height: 2;
 }
 
 .schedule-day {
-  color: #33272a;
+  color: #594a4e;
   font-size: 2rem;
   font-weight: 600;
+  list-style: none;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.schedule-subhead {
+  color: #594a4e;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.times-column {
+  text-align: right;
 }
 
 .schedule-class {
@@ -743,18 +744,6 @@ textarea::placeholder,
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.3px;
-}
-
-.button-close-schedule {
-  font-family: "Rubik", Arial, Helvetica, sans-serif;
-  color: #334155;
-  position: absolute;
-  top: 1rem;
-  right: 3.2rem;
-  font-size: 4rem;
-  cursor: pointer;
-  border: none;
-  background: none;
 }
 
 /***** FOOTER *****/
@@ -768,8 +757,8 @@ textarea::placeholder,
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 6.4rem;
-  column-gap: 6.4rem;
+  row-gap: 64px;
+  column-gap: 64px;
 }
 
 .footer-logo-container {
@@ -797,7 +786,7 @@ textarea::placeholder,
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 16px;
 }
 
 .footer-link:link,
@@ -837,7 +826,7 @@ textarea::placeholder,
 
 .social-icons {
   display: flex;
-  column-gap: 2.4rem;
+  column-gap: 24px;
   list-style: none;
 }
 
