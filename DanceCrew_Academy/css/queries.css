@@ -30,6 +30,10 @@
   .schedule-section {
     padding: 2.4rem;
   }
+
+  .schedule-section .heading-tertiary {
+    margin-bottom: 2.4rem;
+  }
 }
 
 /***************************************/
