@@ -209,27 +209,6 @@
   width: 100%;
 }
 
-.preview-btn:link,
-.preview-btn:visited {
-  border: 3px solid #fff;
-  color: #fff;
-  border-radius: 4rem;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 600;
-  font-family: "Rubik", Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  padding: 0.8rem 2.2rem;
-  text-decoration: none;
-  transition: all ease-in-out 0.3s;
-}
-
-.preview-btn:hover,
-.preview-btn:active {
-  background: #fff;
-  color: #e11d48;
-}
-
 /********** INSTRUCTORS SECTION ***********/
 
 .instructor-section {
@@ -473,10 +452,6 @@
 
 /***** Class Registration Form *****/
 
-.registration-section {
-  padding: 0 9.6rem 9.6rem 9.6rem;
-}
-
 label,
 .style-label {
   color: #1e293b;
@@ -659,25 +634,27 @@ textarea::placeholder,
 
 /*********SCHEDULE SECTION**********/
 
-.registration-header {
+.schedule-header {
   background-image: linear-gradient(
       to right,
       rgba(65, 65, 66, 0.3),
       rgba(0, 0, 0, 0.6)
     ),
-    url("../img/registration-header.jpg");
+    url("../img/schedule-header.jpg");
   background-size: cover;
 }
 
 .schedule-section .heading-tertiary {
   color: #33272a;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 3.6rem;
-  margin-bottom: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 4.8rem;
 }
 
 .schedule-section {
   background: #fff;
-  padding: 4.8rem 9.6rem 9.6rem 9.6rem;
+  padding: 9.6rem;
 }
 
 .schedule-image {
@@ -687,7 +664,7 @@ textarea::placeholder,
   -webkit-border-top-left-radius: 1.2rem;
   display: block;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center;
   height: 28rem;
   width: 100%;
 }
@@ -696,7 +673,7 @@ textarea::placeholder,
   gap: 32px;
 }
 
-.class-wrapper {
+.schedule-wrapper {
   border-bottom-right-radius: 1.2rem;
   border-bottom-left-radius: 1.2rem;
   -webkit-border-bottom-right-radius: 1.2rem;
@@ -704,7 +681,8 @@ textarea::placeholder,
   background: #fff;
   -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
   box-shadow: 12px 12px 24px #b2b8c9a1, -12px -12px 24px #e7e7e77a;
-  padding: 2.4rem;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  padding: 1.6rem;
 }
 
 .class-table {
@@ -722,16 +700,16 @@ textarea::placeholder,
 .schedule-day {
   color: #594a4e;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   list-style: none;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.6rem;
   text-align: center;
 }
 
 .schedule-subhead {
   color: #594a4e;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.3px;
 }
 
@@ -742,7 +720,7 @@ textarea::placeholder,
 .schedule-class {
   color: #594a4e;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.3px;
 }
 
