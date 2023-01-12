@@ -654,7 +654,7 @@ textarea::placeholder,
 
 .schedule-section {
   background: #fff;
-  padding: 9.6rem;
+  padding: 12.8rem;
 }
 
 .schedule-image {
@@ -670,7 +670,7 @@ textarea::placeholder,
 }
 
 .schedule-columns-container {
-  gap: 32px;
+  gap: 48px;
 }
 
 .schedule-wrapper {
@@ -682,7 +682,7 @@ textarea::placeholder,
   -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
   box-shadow: 12px 12px 24px #b2b8c9a1, -12px -12px 24px #e7e7e77a;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  padding: 1.6rem;
+  padding: 2.4rem;
 }
 
 .class-table {
